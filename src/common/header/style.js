@@ -3,7 +3,6 @@ import logoPic from '../../statics/logo.png';
 
 export const HeaderWrapper = styled.nav`
     height: 55px;
-    margin-bottom: 20px;
     border-bottom: 1px solid #eaeaea;
 `;
 
