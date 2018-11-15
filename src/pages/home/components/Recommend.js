@@ -5,8 +5,7 @@ class Recommend extends PureComponent {
 	render() {
 		return (
 			<RecommendWrapper>
-				<RecommendItem imgUrl=""/>
-				<RecommendItem imgUrl=""/>
+				<RecommendItem>sasad</RecommendItem>
 			</RecommendWrapper>
 		)
 	}

@@ -71,6 +71,20 @@ export const ListItem = styled.div`
 		float: right;
 		border-radius: 10px;
 	}
+	a{
+		text-decoration:none;
+		color: black;
+		padding-bottom:10px;
+	}
+	a:hover{
+		text-decoration:black;
+	}
+	p{
+		margin: 0 0 8px;
+    	font-size: 13px;
+    	line-height: 24px;
+    	color: #999;
+	}
 `;
 
 export const ListInfo =	styled.div`
@@ -90,14 +104,14 @@ export const ListInfo =	styled.div`
 `;
 
 export const RecommendWrapper = styled.div`
-	margin: 30px 0;
 	width: 280px;
+	overflow:hidden;
+	float:left;
 `;
 
 export const RecommendItem = styled.div`
 	width: 280px;
 	height: 50px;
-	background: url(${(props) => props.imgUrl});
 	background-size: contain;
 `;
 

@@ -3,6 +3,7 @@ import {
     HomeWrapper, 
     HomeLeft, 
     HomeRight,
+    RecommendWrapper,
 } from './style.js';
 import Topic from './components/Topic';
 import List  from './components/List';
@@ -17,11 +18,14 @@ class Home extends Component{
 					<List/>
                 </HomeLeft>
                 <HomeRight>
-                    <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
-                    <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
-                    <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
-                    <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
-                    <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
+                    <div>
+                        <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
+                        <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
+                        <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
+                        <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
+                        <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
+                    </div>
+                    <RecommendWrapper/>
                 </HomeRight>
             </HomeWrapper>
         );
