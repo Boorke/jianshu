@@ -3,11 +3,14 @@ import styled from 'styled-components';
 export const HomeWrapper = styled.div`
 	overflow: hidden;
 	width: 960px;
-	margin: 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+	margin: 0 151.667px auto; 
 `;
 
 export const HomeLeft = styled.div`
 	float: left;
+	position:relative;
 	margin-left: 15px;
 	padding-top: 30px;
 	width: 625px;
@@ -19,13 +22,20 @@ export const HomeLeft = styled.div`
 
 export const HomeRight = styled.div`
 	width: 280px;
-	float: right;
+	padding-top:30px;
+	margin-left:30px;
+	float: left;
+	.banner-img{
+		width:280px;
+		height:47px;
+		margin-bottom:6px;
+	}
 `;
 
 export const TopicWrapper = styled.div`
 	overflow: hidden;
-	padding: 20px 0 10px 0;
-	margin-left: -18px;
+	padding: 30px 0 10px 0;
+	width:625px;
 	border-bottom: 1px solid #dcdcdc;
 `;
 
@@ -33,9 +43,9 @@ export const TopicItem = styled.div`
 	float: left;
 	height: 32px;
 	line-height: 32px;
-	margin-left: 18px;
+	margin-right: 18px;
 	margin-bottom: 18px;
-    padding-right: 10px
+    padding-right: 10px;
     background: #f7f7f7;
     font-size: 14px;
 	color: #000;

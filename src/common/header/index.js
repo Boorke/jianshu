@@ -4,12 +4,10 @@ import {
     Logo,
     Nav,
     NavItem,
-    SearchWrapper,
     NavSearch,
     Addition,
     Button
 } from './style.js';
-import { CSSTransition } from 'react-transition-group';
 
 
 class Header extends Component{

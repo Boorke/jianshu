@@ -6,7 +6,9 @@ class List extends PureComponent {
 		return (
 			<div>
 				<ListItem>
-					<ListInfo></ListInfo>
+					<ListInfo>
+						
+					</ListInfo>
 				</ListItem>
 				<LoadMore>更多热门专题</LoadMore>
 			</div>
