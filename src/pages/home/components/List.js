@@ -37,7 +37,7 @@ class List extends PureComponent {
 						</p>
 					</ListInfo>
 				</ListItem>
-				<LoadMore>更多热门专题</LoadMore>
+				<LoadMore>阅读更多</LoadMore>
 			</div>
 		)
 	}

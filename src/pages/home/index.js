@@ -7,6 +7,7 @@ import {
 } from './style.js';
 import Topic from './components/Topic';
 import List  from './components/List';
+import Recommend from './components/Recommend.js';
 
 class Home extends Component{
     render(){
@@ -25,7 +26,7 @@ class Home extends Component{
                         <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
                         <img className='banner-img' src="https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"/>
                     </div>
-                    <RecommendWrapper/>
+                    <Recommend/>
                 </HomeRight>
             </HomeWrapper>
         );

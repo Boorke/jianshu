@@ -24,6 +24,7 @@ export const HomeRight = styled.div`
 	width: 280px;
 	padding-top:30px;
 	margin-left:30px;
+	overflow:hidden;
 	float: left;
 	.banner-img{
 		width:280px;
@@ -107,12 +108,85 @@ export const RecommendWrapper = styled.div`
 	width: 280px;
 	overflow:hidden;
 	float:left;
+	#xiazai{
+		width:230px;
+		height:60px;
+		padding:10px 22px;
+		margin-bottom:30px;
+		border: 1px solid #f0f0f0;
+		border-radius: 6px;
+		background-color: #fff;
+	}
+	.banner-img{
+		width:60px;
+		height:60px;
+		float:left;
+	}		
+	.title{
+		padding-top:10px;
+		width:143px;
+		height:22px;
+		font-size: 15px;
+    	color: #333;
+		float:right;
+	}
+	.description{
+		width:143px;
+		height:18px;
+		margin-top: 4px;
+    	font-size: 13px;
+    	color: #999;
+		float:right;
+	}
 `;
 
 export const RecommendItem = styled.div`
 	width: 280px;
-	height: 50px;
+	height: 559px;
+	overflow:hidden;
 	background-size: contain;
+	.author{
+		font-size: 14px;
+    	color: #969696;
+		text-align:left;
+	}
+	.page-change{
+		font-size: 14px;
+    	color: #969696;
+		text-align:right;
+		float:right;
+	}
+	.author-info{
+		overflow:hidden;
+		margin-top:20px;
+		.author-img{
+			width: 48px;
+    		height: 48px;
+			margin-right:10px;
+    		border: 1px solid #ddd;
+    		border-radius: 50%;
+			float:left;
+		}
+		h3{
+			padding-top: 5px;
+    		margin-right: 60px;
+			float:left;
+    		font-size: 14px;
+			color: #333;
+		}
+		p{
+			float:left;
+			margin-top: 10px;
+    		font-size: 12px;
+    		color: #969696
+		}
+		.follow{
+			float: right;
+    		padding: 0;
+    		font-size: 13px;
+    		color: #42c02e;
+		}
+	}
 `;
 
 export const WriterWrapper = styled.div`
